@@ -15,7 +15,7 @@ angular.module("app")
 		}
 	}
 
-	baseUrl="http://REPLACEURL/services/products";
+	baseUrl="http://catalog-springboot-user1-catalog.apps.cluster-dev-b38c.dev-b38c.open.redhat.com/services/products";
 
 	factory.getProducts = function() {
 		var deferred = $q.defer();
